@@ -23,3 +23,5 @@
  Enter password: password
  Access denied
 """
+userid = input("Enter username: ")
+passkey = input("Enter ")
