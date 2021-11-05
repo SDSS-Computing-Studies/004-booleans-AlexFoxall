@@ -23,5 +23,15 @@
  Enter password: password
  Access denied
 """
-userid = input("Enter username: ")
-passkey = input("Enter ")
+n = False
+while n == False:
+    userid = input("Enter username: ")
+    if userid != "admin":
+        print("invalid user")
+    if userid == "admin":
+        passkey = input("Enter password: ")
+        if passkey == "12345password":
+            print("Access granted")
+            n = True
+        else:
+            print("Access denied")    
