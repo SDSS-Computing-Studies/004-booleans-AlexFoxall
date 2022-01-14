@@ -21,7 +21,7 @@ Enter a number: -1.2
 negative
 """
 x = input("enter a number")
-x = int(x)
+x = float(x)
 
 if x < 0:
     print("negative")
