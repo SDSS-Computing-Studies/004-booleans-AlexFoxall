@@ -18,3 +18,6 @@ the sentence does not contain password
 Enter a sentence: The best password is no password.
 the sentence contains password
 """
+me = input("enter a sentence")
+for d in me:
+    print(d)

@@ -29,3 +29,12 @@ Enter c: 8
 the equation can not be factored
 
 """
+a = input('enter a')
+b = input('enter b')
+c = input('enter c')
+a = int(a)
+b = int(b)
+c = int(c) 
+
+w = (b ** 2) - 4 * a * c
+g = 
