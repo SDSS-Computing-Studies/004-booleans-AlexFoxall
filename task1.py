@@ -27,4 +27,4 @@ if x > 100:
 if x < 100:
     print("the number is smaller than 100")
 if x == 100:
-    print("the numder is 100")
+    print("the number is 100")
