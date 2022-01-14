@@ -25,11 +25,11 @@
 """
 n = False
 while n == False:
-    userid = input("Enter username: ")
+    userid = input("Enter username:")
     if userid != "admin":
         print("invalid user")
     if userid == "admin":
-        passkey = input("Enter password: ")
+        passkey = input("Enter password:")
         if passkey == "12345password":
             print("Access granted")
             n = True
