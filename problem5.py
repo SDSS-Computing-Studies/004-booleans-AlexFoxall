@@ -37,4 +37,12 @@ b = int(b)
 c = int(c) 
 
 w = (b ** 2) - 4 * a * c
-g = 
+g = w ** 1/2
+f = round(g)
+if w < 0:
+    print('the equation can not be factored')
+else:
+    if g == f:
+        print('the equation can be factored')
+    else:
+        print('the equation can not be factored')
