@@ -25,11 +25,11 @@
 """
 n = False
 while n == False:
-    userid = input("Enter username:").strip
+    userid = input("Enter username:").strip()
     if userid != "admin":
         print("invalid user")
     if userid == "admin":
-        passkey = input("Enter password:").strip
+        passkey = input("Enter password:").strip()
         if passkey == "12345password":
             print("Access granted")
             n = True
