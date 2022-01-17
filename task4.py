@@ -18,6 +18,10 @@ the sentence does not contain password
 Enter a sentence: The best password is no password.
 the sentence contains password
 """
-me = input("enter a sentence")
-for d in me:
-    print(d)
+input_string = input('enter a sentence')
+family_list  = input_string.split(" ")
+for name in family_list:
+    if name == "password":
+        print('the sentence contains password')
+    else:
+        print('the sentence does not contain password')
