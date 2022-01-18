@@ -29,9 +29,9 @@ Enter c: 8
 the equation can not be factored
 
 """
-a = input('enter a')
-b = input('enter b')
-c = input('enter c')
+a = input('enter a:')
+b = input('enter b:')
+c = input('enter c:')
 a = int(a)
 b = int(b)
 c = int(c) 
@@ -46,3 +46,5 @@ else:
         print('the equation can be factored')
     else:
         print('the equation can not be factored')
+
+        

@@ -18,10 +18,17 @@ the sentence does not contain password
 Enter a sentence: The best password is no password.
 the sentence contains password
 """
-input_string = input('enter a sentence')
-family_list  = input_string.split(" ")
-for name in family_list:
-    if name == "password":
-        print('the sentence contains password')
-    else:
-        print('the sentence does not contain password')
+def mc():
+    e= False
+    input_string = input('enter a sentence')
+    x = input_string.split(" ")
+    for i in x:
+       if i == "password":
+           e = True
+           print('the sentence contains password')
+       if e == True:
+           break
+    return e
+
+if mc() == False:
+    print("the sentence does not contain password")

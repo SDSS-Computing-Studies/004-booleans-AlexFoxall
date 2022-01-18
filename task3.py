@@ -32,7 +32,7 @@ Enter a number: 10000
 
 """
 x = input('enter a number')
-x = int(x)
+x = float(x)
 if x > 1000 or x == 1000:
     print('The number is equal to 1000 or is larger than 1000')
 else:
